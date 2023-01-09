@@ -1,0 +1,69 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 23, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 271.551 s <<< FAILURE! - in TestSuite
+faqcase(Flipkart.Flipkart.Rest_TestCase)  Time elapsed: 15.116 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: headless chrome=108.0.5359.125)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'IN-PG02NM6E', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6d131f068096e607888886d4c4748f9c, clickElement {id=c89c4a44-5df2-4c0f-9ebe-dd5f7a1144d6}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\RISHAB~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64287}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64287/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (6d131f068096e607888886d4c4748f9c)] -> xpath: //*[@id="container"]/div/footer/div/div[3]/div[1]/div[2]/a[4]]
+Session ID: 6d131f068096e607888886d4c4748f9c
+	at Flipkart.Flipkart.Rest_TestCase.faqcase(Rest_TestCase.java:26)
+
+BecameSeller(Flipkart.Flipkart.TestHeader)  Time elapsed: 28.769 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//body/div[@id='app-container']/div[1]/div[1]/div[1]/form[1]/div[1]/div[3]/div[2]/input[1]"}
+  (Session info: headless chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'IN-PG02NM6E', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6d131f068096e607888886d4c4748f9c, findElement {using=xpath, value=//body/div[@id='app-container']/div[1]/div[1]/div[1]/form[1]/div[1]/div[3]/div[2]/input[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\RISHAB~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64287}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64287/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d131f068096e607888886d4c4748f9c
+	at Flipkart.Flipkart.TestHeader.BecameSeller(TestHeader.java:82)
+
+youtube(Flipkart.Flipkart.Test_10Footer)  Time elapsed: 15.045 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/div/div/button"}
+  (Session info: headless chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'IN-PG02NM6E', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6d131f068096e607888886d4c4748f9c, findElement {using=xpath, value=/html/body/div[2]/div/div/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\RISHAB~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64287}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64287/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d131f068096e607888886d4c4748f9c
+	at Flipkart.Flipkart.Test_10Footer.youtube(Test_10Footer.java:20)
+
+Groc(Flipkart.Flipkart.Test_6Grocery)  Time elapsed: 16.208 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="container"]/div/div[4]/div[5]/div/div/div/div/div[1]/div/div[1]/div/div[2]/div/button/span"}
+  (Session info: headless chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'IN-PG02NM6E', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6d131f068096e607888886d4c4748f9c, findElement {using=xpath, value=//*[@id="container"]/div/div[4]/div[5]/div/div/div/div/div[1]/div/div[1]/div/div[2]/div/button/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\RISHAB~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64287}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64287/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d131f068096e607888886d4c4748f9c
+	at Flipkart.Flipkart.Test_6Grocery.Groc(Test_6Grocery.java:27)
+
+cases(Flipkart.Flipkart.Test_cases)  Time elapsed: 3.095 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: headless chrome=108.0.5359.125)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'IN-PG02NM6E', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6d131f068096e607888886d4c4748f9c, clickElement {id=565af0d5-af61-4263-af0e-d944e10e19b7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\RISHAB~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64287}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64287/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (6d131f068096e607888886d4c4748f9c)] -> xpath: //*[@id="container"]/div/footer/div/div[3]/div[1]/div[1]/a[7]]
+Session ID: 6d131f068096e607888886d4c4748f9c
+	at Flipkart.Flipkart.Test_cases.cases(Test_cases.java:24)
+

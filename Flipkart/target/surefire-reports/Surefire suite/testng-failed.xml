@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="Flipkart.Flipkart.Test_6Grocery">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="launchurl"/>
+          <include name="CloseBrowser"/>
+          <include name="Groc"/>
+          <include name="Close"/>
+        </methods>
+      </class> <!-- Flipkart.Flipkart.Test_6Grocery -->
+      <class name="Flipkart.Flipkart.Test_cases">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="cases"/>
+          <include name="launchurl"/>
+          <include name="CloseBrowser"/>
+          <include name="Close"/>
+        </methods>
+      </class> <!-- Flipkart.Flipkart.Test_cases -->
+      <class name="Flipkart.Flipkart.TestHeader">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="launchurl"/>
+          <include name="CloseBrowser"/>
+          <include name="Close"/>
+          <include name="BecameSeller"/>
+        </methods>
+      </class> <!-- Flipkart.Flipkart.TestHeader -->
+      <class name="Flipkart.Flipkart.Test_10Footer">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="launchurl"/>
+          <include name="CloseBrowser"/>
+          <include name="Close"/>
+          <include name="youtube"/>
+        </methods>
+      </class> <!-- Flipkart.Flipkart.Test_10Footer -->
+      <class name="Flipkart.Flipkart.Rest_TestCase">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="faqcase"/>
+          <include name="launchurl"/>
+          <include name="CloseBrowser"/>
+          <include name="Close"/>
+        </methods>
+      </class> <!-- Flipkart.Flipkart.Rest_TestCase -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
